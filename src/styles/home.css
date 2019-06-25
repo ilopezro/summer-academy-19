@@ -1,0 +1,19 @@
+.edImage{
+    height: 300px; 
+}
+
+.quote{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px
+}
+
+.welcome{
+    font-family: cursive; 
+    text-align: center;
+    font-size: 26px
+}
+
+.welcomeMsg{
+    font-size: 22px;
+    font-family: cursive;
+}
