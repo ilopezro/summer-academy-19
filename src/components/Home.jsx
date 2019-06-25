@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import Navbar from './navbar'
 import '../styles/home.css'
 import edImage from '../assets/education.jpg'
+import ngsImg from '../assets/NGS.png'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -33,7 +34,9 @@ class Home extends Component{
                                 belongs to those who prepare for it today" - Malcolm X</i> 
                             </h3>
                         </Col>
-                        <Col md="4"> 2 of 2</Col>
+                        <Col md="4">
+                            <img src={ngsImg} className="ngsImg"></img>
+                        </Col>
                     </Row>
                     <Row>
                         <Col> Second row </Col>
