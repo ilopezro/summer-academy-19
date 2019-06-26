@@ -25,9 +25,11 @@ class AboutMe extends Component{
                             <img className="headshot" src={headshot} alt="headshot"></img>
                         </Col>
                         <Col md="auto">
-                            <p id="aboutme">
-                                <b>About Me:</b><br></br> My name is Isai Lopez Rodas and I am a second year student at UCSC. I am a Branson <br></br>
-                                                          alum (Class of 2017) and an NGS alum as well. 
+                            <p className = "aboutme" id="aboutme">
+                                <b>About Me:</b><br></br> My name is Isai Lopez Rodas and I just finished my second <br></br> 
+                                                          year student at UCSC. I am a Branson alum (Class of 2017) <br></br> 
+                                                          and an NGS alum as well. I am back this year to teach two <br></br>
+                                                          math classes and this web development elective. 
                             </p>
                         </Col>
                         <Col>
