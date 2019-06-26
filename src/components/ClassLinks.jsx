@@ -57,7 +57,7 @@ class ClassLinks extends Component{
                     </Row>
                     <Row>
                         <Col>
-                            <table>
+                            <table className="table">
                                 <thead>
                                     <tr>
                                         <th> Student Name</th>
