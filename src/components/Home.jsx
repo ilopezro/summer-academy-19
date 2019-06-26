@@ -3,6 +3,7 @@ import Navbar from './navbar'
 import '../styles/home.css'
 import edImage from '../assets/education.jpg'
 import ngsImg from '../assets/NGS.png'
+import meme from '../assets/homememe.jpeg'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -15,7 +16,7 @@ class Home extends Component{
                 <Navbar />
                 <Container fluid="true">
                     <Row>
-                        <Col md="4"> 
+                        <Col> 
                             <h5 className="welcome">Welcome!</h5>
                             <p className="welcomeMsg">
                                 Welcome to NGS' Summer Academy 2019! This will be the class webpage (for the most part)
@@ -26,7 +27,7 @@ class Home extends Component{
                                 won't be able to go through it all. 
                             </p>
                         </Col>
-                        <Col md="4" id="image">
+                        <Col id="image">
                             <img src={edImage} className="edImage"/>
                             <br></br>
                             <h3>
@@ -34,12 +35,21 @@ class Home extends Component{
                                 belongs to those who prepare for it today" - Malcolm X</i> 
                             </h3>
                         </Col>
-                        <Col md="4">
+                        <Col>
                             <img src={ngsImg} className="ngsImg"></img>
+                            <br></br><br></br>
+                            <img src={meme} className="meme"></img>
                         </Col>
                     </Row>
                     <Row>
-                        <Col> Second row </Col>
+                        <h4>Resources</h4>
+                    </Row>
+                    <Row>
+                        <ul>
+                            <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+                            <li><a href="https://www.google.com" target="_blank">Google!!!!</a></li>
+                            <li><a href="https://www.codecademy.com" target="_blank">Codecademy</a> - premium courses are paid, but basic HTML courses are free. </li>
+                        </ul>  
                     </Row>
                 </Container>
             </div>
