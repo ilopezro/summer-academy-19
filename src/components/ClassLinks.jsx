@@ -38,7 +38,7 @@ class ClassLinks extends Component{
                 <tr key={i}>
                     <td>{item.name} {item.id}</td>
                     <td>{item.description}</td>
-                    <td>{item.link}</td>
+                    <td><a href={item.link}> Webpage</a></td>
                 </tr>
             );
         })
@@ -61,7 +61,7 @@ class ClassLinks extends Component{
                                 <thead>
                                     <tr>
                                         <th> Student Name</th>
-                                        <th> Site Description</th>
+                                        <th> Project Description</th>
                                         <th> Link </th>
                                     </tr>
                                 </thead>
