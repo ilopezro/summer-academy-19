@@ -28,7 +28,7 @@ class Home extends Component{
                             </p>
                         </Col>
                         <Col id="image">
-                            <img src={edImage} className="edImage"/>
+                            <img src={edImage} className="edImage" alt="pile of books"/>
                             <br></br>
                             <h3>
                                 <i className="quote">"Education is the passport to the future, for tomorrow 
@@ -36,9 +36,9 @@ class Home extends Component{
                             </h3>
                         </Col>
                         <Col>
-                            <img src={ngsImg} className="ngsImg"></img>
+                            <img src={ngsImg} className="ngsImg" alt="ngs logo"></img>
                             <br></br><br></br>
-                            <img src={meme} className="meme"></img>
+                            <img src={meme} className="meme" alt="memes"></img>
                         </Col>
                     </Row>
                     <Row>
