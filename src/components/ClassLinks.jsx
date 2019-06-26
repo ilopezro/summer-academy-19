@@ -27,6 +27,12 @@ class ClassLinks extends Component{
                 name: "Student", 
                 description: "N/A",
                 link: "/"
+                }, 
+                {
+                    id: 4, 
+                    name: "Student", 
+                    description: "N/A", 
+                    link: "/"
                 }
             ]
         }
@@ -38,7 +44,7 @@ class ClassLinks extends Component{
                 <tr key={i}>
                     <td>{item.name} {item.id}</td>
                     <td>{item.description}</td>
-                    <td><a href={item.link}> Webpage</a></td>
+                    <td><a href={item.link} rel="noopener noreferrer" target="_blank"> Webpage</a></td>
                 </tr>
             );
         })
