@@ -46,9 +46,9 @@ class Home extends Component{
                     </Row>
                     <Row>
                         <ul>
-                            <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
-                            <li><a href="https://www.google.com" target="_blank">Google!!!!</a></li>
-                            <li><a href="https://www.codecademy.com" target="_blank">Codecademy</a> - premium courses are paid, but basic HTML courses are free. </li>
+                            <li><a href="https://www.w3schools.com" rel="noopener noreferrer" target="_blank">W3Schools</a></li>
+                            <li><a href="https://www.google.com" rel="noopener noreferrer" target="_blank">Google!!!!</a></li>
+                            <li><a href="https://www.codecademy.com" rel="noopener noreferrer" target="_blank">Codecademy</a> - premium courses are paid, but basic HTML courses are free. </li>
                         </ul>  
                     </Row>
                 </Container>
