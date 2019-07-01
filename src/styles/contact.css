@@ -17,6 +17,7 @@
 
 }
 
-.phone{
+.phone, .phone:hover, .phone:link, .phone:visited, .phone:active{
     font-size: 25px; 
+    color: black; 
 }

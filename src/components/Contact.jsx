@@ -42,10 +42,10 @@ class Contact extends Component{
                         <Col>
                             <p className="emailDes"> 
                                 <a href="mailto:ilopezro@ucsc.edu"> <MdEmail className="email"/> </a> 
-                                email: ilopezro@ucsc.edu
+                                Email: ilopezro@ucsc.edu
                             </p>
                             <p>
-                                <MdPhoneIphone className="phone"/>
+                                <a href="tel:1-415-786-3592"> <MdPhoneIphone className="phone"/> </a>
                                 Phone number: 415-786-3592
                             </p>
                         </Col>
