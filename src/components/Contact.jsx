@@ -22,10 +22,13 @@ class Contact extends Component{
                             <img className="cartoon" src={cartoon} alt="cartoon"></img>
                         </Col>
                         <Col>
-                            <p className="quote2">
-                                “You know, sometimes kids get bad grades in school because<br></br> 
+                        <br></br><br></br>
+                            <p className="quote2"><i>
+                                “You know, sometimes kids get bad grades in school because 
                                 the class moves too slow for them. Einstein got D's in school. 
-                                Well guess what, I get F's!!!” "
+                                Well guess what, I get F's!!!”</i>
+                                <br></br>
+                                - Bill Waterson
                             </p>
                         </Col>
                     </Row>
