@@ -1,50 +1,51 @@
 import React, {Component} from 'react';
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
 
-class Navbar extends Component{
-  constructor(props){
-    super(props)
-    this.state = {
-      pages: [
-        {
-          name: "Home",
-          path: "/"
-        },
-        {
-          name: "About Me",
-          path: "/aboutMe"
-        },
-        {
-          name: "Class Links",
-          path: "/classLinks"
-        },
-        {
-          name: "Contact",
-          path: "/contact"
+class Navb extends Component{
+    constructor(props){
+        super(props)
+        this.state = {
+          pages: [
+            {
+              name: "About Me",
+              path: "/aboutMe"
+            },
+            {
+              name: "Class Links",
+              path: "/classLinks"
+            },
+            {
+              name: "Contact",
+              path: "/contact"
+            }
+          ]
         }
-      ]
     }
-  }
 
-  getNavComponents(){
-    return this.state.pages.map((item, i) => {
-      return (
-        <li className="nav-item">
-          <a className="nav-link" href={item.path} key={i}>{item.name}</a>
-        </li>
-      )
+    getNavComp(){
+      return this.state.pages.map((page, i) => {
+        return (
+          <Nav.Link href={page.path}>{page.name}</Nav.Link>
+        )
       }
-    )
-  }
 
-  render(){
-    return(
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div className="collapse navbar-collapse" id="navbarResponsive">
-						<ul className="navbar-nav ml-auto">{this.getNavComponents()}</ul>
-					</div>
-      </nav>
-    )
-  }
+      )
+    }
+
+    render(){
+        return(
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+                <Navbar.Brand href="/">Home</Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav>
+                        {this.getNavComp()}
+                    </Nav>
+                </Navbar.Collapse>
+            </Navbar>
+        )
+    }
 }
 
-export default Navbar;
+export default Navb; 
