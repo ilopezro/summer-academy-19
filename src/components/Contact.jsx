@@ -5,6 +5,8 @@ import cartoon from '../assets/calvinandhobbes.jpg'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import {MdEmail} from 'react-icons/md'
+import {MdPhoneIphone} from 'react-icons/md'
 
 class Contact extends Component{
     render(){
@@ -34,7 +36,19 @@ class Contact extends Component{
                     </Row>
                     <Row>
                         {/* this is the place where communication methods will go */}
-                        Communicate
+                        <h4>How to Communicate with Me!</h4>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <p className="emailDes"> 
+                                <a href="mailto:ilopezro@ucsc.edu"> <MdEmail className="email"/> </a> 
+                                email: ilopezro@ucsc.edu
+                            </p>
+                            <p>
+                                <MdPhoneIphone className="phone"/>
+                                Phone number: 415-786-3592
+                            </p>
+                        </Col>
                     </Row>
                 </Container>
             </div>
