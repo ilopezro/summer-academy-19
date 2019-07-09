@@ -44,7 +44,7 @@ class ClassLinks extends Component{
                 <tr key={i}>
                     <td>{item.name}</td>
                     <td>{item.description}</td>
-                    <td><a href={item.link} rel="noopener noreferrer" target="_blank"> Webpage</a></td>
+                    <td><a href={item.link} rel="noopener noreferrer"> Webpage</a></td>
                 </tr>
             );
         })
