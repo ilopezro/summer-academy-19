@@ -6,6 +6,7 @@ import ClassLinks from "../components/ClassLinks"
 import Contact from "../components/Contact"
 import hector from "../components/classLinks/hectorAndAlberto"
 import Juan from "../components/classLinks/Juan/juan"
+import zach from "../components/classLinks/zachAndWilliam"
 
 export default () => {
     return(
@@ -17,6 +18,7 @@ export default () => {
                 <Route path="/contact" exact component={Contact} />
                 <Route path="/classLinks/hectorAndAlberto" exact component={hector} />
                 <Route path="/classLinks/juan" exact component={Juan} />
+                <Route path="/classLinks/zachAndWilliam" exact component={zach} />
             </Switch>
         </BrowserRouter>
     )
