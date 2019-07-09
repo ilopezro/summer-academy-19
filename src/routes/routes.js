@@ -5,7 +5,7 @@ import AboutMe from "../components/AboutMe"
 import ClassLinks from "../components/ClassLinks"
 import Contact from "../components/Contact"
 import hector from "../components/classLinks/hectorAndAlberto"
-import Juan from "../components/classLinks/juan"
+import Juan from "../components/classLinks/Juan/juan"
 
 export default () => {
     return(
