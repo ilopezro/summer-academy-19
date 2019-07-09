@@ -4,6 +4,7 @@ import App from '../components/App'
 import AboutMe from "../components/AboutMe"
 import ClassLinks from "../components/ClassLinks"
 import Contact from "../components/Contact"
+import hector from "../components/classLinks/hectorAndAlberto"
 
 export default () => {
     return(
@@ -13,6 +14,7 @@ export default () => {
                 <Route path="/aboutMe" exact component={AboutMe} />
                 <Route path="/classLinks" exact component={ClassLinks} />
                 <Route path="/contact" exact component={Contact} />
+                <Route path="/classLinks/hectorAndAlberto" exact component={hector} />
             </Switch>
         </BrowserRouter>
     )

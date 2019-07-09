@@ -12,9 +12,9 @@ class ClassLinks extends Component{
             links: [
                 {
                     id: 1,
-                    name: "Student", 
+                    name: "Hector and Alberto", 
                     description: "N/A",
-                    link: "/"
+                    link: "/classLinks/hectorAndAlberto"
                 },
                 {
                     id: 2,
@@ -42,9 +42,9 @@ class ClassLinks extends Component{
         return this.state.links.map((item, i) => {
             return (
                 <tr key={i}>
-                    <td>{item.name} {item.id}</td>
+                    <td>{item.name}</td>
                     <td>{item.description}</td>
-                    <td><a href={item.link} rel="noopener noreferrer" target="_blank"> Webpage</a></td>
+                    <td><a href={item.link} rel="noopener noreferrer"> Webpage</a></td>
                 </tr>
             );
         })
