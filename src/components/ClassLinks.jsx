@@ -24,9 +24,9 @@ class ClassLinks extends Component{
                 },
                 {
                 id: 3,
-                name: "Student", 
+                name: "Zach and William", 
                 description: "N/A",
-                link: "/"
+                link: "/classLinks/zachAndWilliam"
                 }, 
                 {
                     id: 4, 
