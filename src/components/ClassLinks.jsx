@@ -13,7 +13,7 @@ class ClassLinks extends Component{
                 {
                     id: 1,
                     name: "Hector and Alberto", 
-                    description: "N/A",
+                    description: "What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                     link: "/classLinks/hectorAndAlberto"
                 },
                 {
@@ -23,16 +23,22 @@ class ClassLinks extends Component{
                     link: "/classLinks/juan"
                 },
                 {
-                id: 3,
-                name: "Student", 
-                description: "N/A",
-                link: "/"
+                    id: 3,
+                    name: "Dyllan, Maleny, and Fabiola", 
+                    description: "N/A",
+                    link: "/classLinks/DMF"
                 }, 
                 {
                     id: 4, 
-                    name: "Student", 
+                    name: "Zach and William", 
                     description: "N/A", 
-                    link: "/"
+                    link: "/classLinks/ZW"
+                }, 
+                {
+                    id: 5, 
+                    name: "Franklin, Karina, and Tiffany", 
+                    description: "N/A",
+                    link:"/classLinks/FKT"
                 }
             ]
         }
@@ -43,7 +49,7 @@ class ClassLinks extends Component{
             return (
                 <tr key={i}>
                     <td>{item.name}</td>
-                    <td>{item.description}</td>
+                    <td height="100">{item.description}</td>
                     <td><a href={item.link} rel="noopener noreferrer"> Webpage</a></td>
                 </tr>
             );
@@ -66,9 +72,9 @@ class ClassLinks extends Component{
                             <table className="table">
                                 <thead>
                                     <tr>
-                                        <th> Student Name</th>
-                                        <th> Project Description</th>
-                                        <th> Link </th>
+                                        <th width="25%"> Student Name</th>
+                                        <th width="50%"> Project Description</th>
+                                        <th width="25%"> Link </th>
                                     </tr>
                                 </thead>
                                 <tbody>
